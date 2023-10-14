@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+
+      <!-- LOGO BOX1 -->
+      <div class="nav-logo border">
+        <div class="logo">
+        </div>
+      </div>
+
+      <!-- Adress BOX2 -->
+      <div class="nav-adress border">
+        <p class="adr1">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-light fa-location-dot"></i>
+          <p class="adr2">India</p>
+        </div>
+      </div>
+
+      <!-- SEARCH BOX3 -->
+
+      <div class="nav-search border">
+
+        <select class="search-select">
+          <option value="All">All</option>
+        </select>
+
+        <input class="search-input" type="text" placeholder="Search for Amazon.in">
+
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+
+      <!-- COUNTRY & language BOX4 -->
+      <div class="lan border">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-in"
+          viewBox="0 0 512 512">
+          <path fill="#f93" d="M0 0h512v170.7H0z" />
+          <path fill="#fff" d="M0 170.7h512v170.6H0z" />
+          <path fill="#128807" d="M0 341.3h512V512H0z" />
+          <g transform="translate(256 256) scale(3.41333)">
+            <circle r="20" fill="#008" />
+            <circle r="17.5" fill="#fff" />
+            <circle r="3.5" fill="#008" />
+            <g id="in-d">
+              <g id="in-c">
+                <g id="in-b">
+                  <g id="in-a" fill="#008">
+                    <circle r=".9" transform="rotate(7.5 -8.8 133.5)" />
+                    <path d="M0 17.5.6 7 0 2l-.6 5L0 17.5z" />
+                  </g>
+                  <use xlink:href="#in-a" width="100%" height="100%" transform="rotate(15)" />
+                </g>
+                <use xlink:href="#in-b" width="100%" height="100%" transform="rotate(30)" />
+              </g>
+              <use xlink:href="#in-c" width="100%" height="100%" transform="rotate(60)" />
+            </g>
+            <use xlink:href="#in-d" width="100%" height="100%" transform="rotate(120)" />
+            <use xlink:href="#in-d" width="100%" height="100%" transform="rotate(-120)" />
+          </g>
+        </svg>
+        <select>
+          <option>EN</option>
+          <option>HI</option>
+          <option>GU</option>
+        </select>
+      </div>
+
+
+      <!--  SIGN IN BOX5 -->
+      <div class="nav-signin border">
+        <p><span class="p1">Hello, Sign in</span></p>
+        <p class="nav-sec">Account & Lists</p>
+      </div>
+
+
+      <!-- REturn & ORder BOX6 -->
+
+      <div class="nav-return border">
+        <p><span class="p1">Returns</span></p>
+        <p class="nav-sec">& Order</p>
+      </div>
+
+
+      <!-- CART BOX7 -->
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+
+    </div>
+
+    <div class="panel">
+
+      <div class="panal-all border">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+
+      <div class="panel-ops ">
+        <p class="border">Amazon miniTV</p>
+        <p class="border">Sell</p>
+        <p class="border">Gift Cards</p>
+        <p class="border">Buy Again</p>
+        <p class="border">RISHI's Amazon.in</p>
+        <p class="border">Fashion</p>
+        <p class="border">Amazon Pay</p>
+        <p class="border">Grocery & Gourmet Foods</p>
+      </div>
+
+      <div class="panel-pic "> </div>
+
+    </div>
+
+  </header>
+
+  <div class="hero-section">
+
+    <div class="blur"> </div>
+  </div>
+
+  <!-- shoping- section -->
+  <div class="shoping-section">
+
+    <!-- First raw boxes -->
+
+    <div class="shop">
+      <div class="box1 box ">
+        <div class="contant">
+
+          <h3>Great offers on wide range of TVs for every room</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B1 P1.jpg">
+            <img class="B1" src="B1 P2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Budget Tvs | up to 60% off</p>
+            <p> 4K Tvs | up to 12 months No cost EMI</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B1 P3.jpg">
+            <img class="B1" src="B1 P4.jpg">
+          </div>
+          <div class=" Btext">
+            <p>Big Screens | up to 3 Years warranty</p>
+            <p>Ultra premium Tvs | up to 12 months 50% off</p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box2 box">
+        <div class="contant">
+          <h3>Up to 80% off | Laptops, smartwatches & headphones</h3>
+          <img class="B2" src="B2.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box3 box">
+        <div class="contant">
+          <h3>Up to 40% off | Deals on popular brand</h3>
+          <div class="Bimg">
+            <img class="B1" src="B3 P1.jpg">
+            <img class="B1" src="B3 P2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Saving up to 40% </p>
+            <p>Saving up to 27,000</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B3 P3.jpg">
+            <img class="B1" src="B3 P4.jpg">
+          </div>
+          <div class=" Btext">
+            <p>Saving up to 8000</p>
+            <p>Saving up to 7,500</p>
+          </div>
+
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box4 box">
+        <div class="contant">
+          <div class="sign-in">
+            <h3>Sign in for your best <br> experience</h3>
+            <button type="button">Sign in Securely</button>
+          </div>
+          <div class="b4 ">
+            <img class="b4-img" src="B4 new.jpg">
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Second raw boxes -->
+      <div class="box5 box">
+        <div class="contant">
+          <h3>Starting ₹349 | Bestselling headphones </h3>
+          <img class="B2" src="B4.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box6 box ">
+        <div class="contant">
+
+          <h3>Starting ₹199 | Shoes & handbags</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B6 p1.jpeg">
+            <img class="B1" src="b6 p2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Sports Shoes</p>
+            <p> men's Shoes</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B6 p3.jpeg">
+            <img class="B1" src="B6 p4.jpeg">
+          </div>
+          <div class=" Btext">
+            <p>Women's shoes</p>
+            <p>Handbags</p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box7 box ">
+        <div class="contant">
+
+          <h3>Up to 60% off | Top offers on home appliances</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B7 p1.jpg">
+            <img class="B1" src="B7 p2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Refrigerators | up to 60% off</p>
+            <p> Washing machines | up to 65% off</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B7 p3.jpg">
+            <img class="B1" src="B7 p4.jpg">
+          </div>
+          <div class=" Btext">
+            <p>Ac | starting 19,999</p>
+            <p>Microwaves | up to 60% off </p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box8 box">
+        <div class="contant">
+          <h3>Up to 35% off | Now get medicines delivered</h3>
+          <img class="B2" src="B8 new 1.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-sec">
+      <div class="heading-sec">
+        <h2>Explore Top offers in Smartphones</h2>
+        <p class="offers "><a href="#">See all offers</a></p>
+      </div>
+      <div class="img-sec">
+        <img src="Mobile section (1).jpg">
+        <img src="Mobile section (2).jpg">
+        <img src="Mobile section (3).jpg">
+        <img src="Mobile section (4).jpg">
+        <img src="Mobile section (5).jpg">
+        <img src="Mobile section (6).jpg">
+        <img src="Mobile section (7).jpg">
+      </div>
+    </div>
+
+    <div class="shop shp2">
+      <div class="box1 box ">
+        <div class="contant">
+
+          <h3>PC components and storage devices</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B1 p1 new shop sec (1).jpg">
+            <img class="B1" src="B1 p1 new shop sec (2).jpg">
+          </div>
+          <div class="Btext">
+            <p>up to 75% off | Gaming headphones</p>
+            <p>up to 80% off | Keyboard and mouse</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B1 p1 new shop sec (3).jpg">
+            <img class="B1" src="B1 p1 new shop sec (4).jpg">
+          </div>
+          <div class=" Btext">
+            <p>up to 70% off | Storage Device</p>
+            <p>up to 60% off | PC compponent</p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box2 box">
+        <div class="contant">
+          <h3>Up to 70% off | International brands</h3>
+          <img class="B2" src="B2 new shop-sec.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box3 box">
+        <div class="contant">
+          <h3>Min. 60% off | Home, kitchen & furniture | Made for amazon</h3>
+          <div class="Bimg">
+            <img class="B1" src="B3 p1 new shop-sec (1).jpg">
+            <img class="B1" src="B3 p1 new shop-sec (2).jpg">
+          </div>
+          <div class="Btext">
+            <p>Min 60% off | furniture</p>
+            <p>Min 60% off | Home Decor</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B3 p1 new shop-sec (3).jpg">
+            <img class="B1" src="B3 p1 new shop-sec (4).jpg">
+          </div>
+          <div class=" Btext">
+            <p>Min 60% off | Home Furnishing</p>
+            <p>Min 60% off | kitchen and daining</p>
+          </div>
+
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box2 box">
+        <div class="contant">
+          <h3>Up to 40% off | Mobiles & Accessories</h3>
+          <img class="B2" src="B4 new shoping-sec.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+
+      <!-- Second raw boxes -->
+      <!-- <div class="box5 box">
+        <div class="contant">
+          <h3>Starting ₹349 | Bestselling headphones </h3>
+          <img class="B2" src="B4.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box6 box ">
+        <div class="contant">
+
+          <h3>Starting ₹199 | Shoes & handbags</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B6 p1.jpeg">
+            <img class="B1" src="b6 p2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Sports Shoes</p>
+            <p> men's Shoes</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B6 p3.jpeg">
+            <img class="B1" src="B6 p4.jpeg">
+          </div>
+          <div class=" Btext">
+            <p>Women's shoes</p>
+            <p>Handbags</p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box7 box ">
+        <div class="contant">
+
+          <h3>Up to 60% off | Top offers on home appliances</h3>
+
+          <div class="Bimg">
+            <img class="B1" src="B7 p1.jpg">
+            <img class="B1" src="B7 p2.jpg">
+          </div>
+          <div class="Btext">
+            <p>Refrigerators | up to 60% off</p>
+            <p> Washing machines | up to 65% off</p>
+          </div>
+
+          <div class="Bimg">
+            <img class="B1" src="B7 p3.jpg">
+            <img class="B1" src="B7 p4.jpg">
+          </div>
+          <div class=" Btext">
+            <p>Ac | starting 19,999</p>
+            <p>Microwaves | up to 60% off </p>
+          </div>
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+
+      <div class="box8 box">
+        <div class="contant">
+          <h3>Up to 35% off | Now get medicines delivered</h3>
+          <img class="B2" src="B8 new 1.jpg">
+          <div class="offers "><a href="#">See all offers</a></div>
+        </div>
+      </div>
+    </div> -->
+    </div>
+
+    <div class="shoping-sec2">
+      <div class="tickets">
+        <img src="Flight tickets.jpg">
+      </div>
+    </div>
+
+    <div class="mobile-sec mob-accessories">
+      <div class="heading-sec">
+        <h2>Explore top offers in mobile accessories</h2>
+        <p class="offers "><a href="#">See all offers</a></p>
+      </div>
+      <div class="img-sec">
+        <img src="mobile ass (1).jpg">
+        <img src="mobile ass (2).jpg">
+        <img src="mobile ass (3).jpg">
+        <img src="mobile ass (4).jpg">
+        <img src="mobile ass (5).jpg">
+        <img src="mobile ass (6).jpg">
+        <img src="mobile ass (7).jpg">
+      </div>
+    </div>
+
+    <div class="smartwatches">
+      <div class="heading-sec">
+        <h2>Starting ₹799 | Bestselling smartwatches from top brands</h2>
+        <p class="offers "><a href="#">See all offers</a></p>
+      </div>
+      <div class="img-sec">
+        <img src="smartwatches (1).jpg">
+        <img src="smartwatches (2).jpg">
+        <img src="smartwatches (3).jpg">
+        <img src="smartwatches (4).jpg">
+        <img src="smartwatches (5).jpg">
+        <img src="smartwatches (6).jpg">
+        <img src="smartwatches (7).jpg">
+        <img src="smartwatches (8).jpg">
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="foot1">
+        <div class="foot1-contant">
+          <p style="font-size: 15px;">See personalized recommendations</p>
+          <button>Sign in</button>
+          <p style="font-size: 13px;">New customer? Start here</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-top">
+      <p>Back to top</p>
+    </div>
+
+    <div class="foot2">
+      <div class="foot2-details">
+        <ul>
+          <p>Get to Know Us</p>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Press Releases</li>
+          <li>Amazon Science</li>
+        </ul>
+
+        <ul>
+          <p>Connect with Us</p>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+
+        <ul>
+          <p>Make Money with Us</p>
+          <li>Sell on Amazon</li>
+          <li>Sell under Amazon Accelerator</li>
+          <li>Protect and Build Your Brand</li>
+          <li>Amazon Global Selling</li>
+          <li>Become an Affiliate</li>
+          <li>Fulfillment by Amazon</li>
+          <li>Advertise Your Products</li>
+          <li>Amazon Pay on Merchants</li>
+        </ul>
+
+        <ul>
+          <p>Let Us Help You</p>
+          <li>COVID-19 and Amazon</li>
+          <li>Your Account</li>
+          <li>Returns Centre</li>
+          <li>100% Purchase Protection</li>
+          <li>Amazon App Download</li>
+          <li>Help</li>
+        </ul>
+      </div>
+
+      <div class="language-contry">
+        <div class="nav-logo">
+           <div class="logo"></div>
+        </div>
+        <div class="lang-opt">
+          <select id="languageSelect">
+            <option value="en">English - EN</option>
+            <option value="hi">हिन्दी - HI</option>
+            <option value="ta">தமிழ் - TA</option>
+            <option value="te">తెలుగు - TE</option>
+            <option value="kn">ಕನ್ನಡ - KN</option>
+            <option value="ml">മലയാളം - ML</option>
+            <option value="bn">বাংলা - BN</option>
+            <option value="mr">मराठी - MR</option>
+          </select>          
+        </div>
+      </div>
+      <div class="contries">
+        <ul class="country-list">
+          <li>Australia</li>
+          <li>Brazil</li>
+          <li>Canada</li>
+          <li>China</li>
+          <li>France</li>
+          <li>Germany</li>
+          <li>Italy</li>
+          <li>Japan</li>
+          <li>Mexico</li>
+          <li>Netherlands</li>
+          <li>Poland</li>
+          <li>Singapore</li>
+          <li>Spain</li>
+          <li>Turkey</li>
+          <li>United Arab Emirates</li>
+      </ul>
+      <ul class="country-list">
+        <li>United Kingdom</li>
+        <li>United States</li>
+      </ul>
+      </div>
+    </div>
+
+
+</body>
+
+
+</html>
